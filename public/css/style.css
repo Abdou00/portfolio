@@ -1,0 +1,232 @@
+/**
+ * Global
+ */
+body {
+    background: #ffffff;
+    margin: 0;
+    height: 100%;
+    color: #384452;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, H5, H6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    padding: 0;
+    margin-bottom: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #384452;
+    margin-top: 10px;
+}
+
+p.breakline {
+    white-space: pre-wrap;
+    word-break: normal;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    -webkit-transition: background-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, color .4s linear;
+    transition: background-color .4s linear, color .4s linear;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: rgba(195, 197, 198, 0.87);
+}
+
+::moz-selection {
+    color: #fff;
+    text-shadow: none;
+    background: #2B2E31;
+}
+
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #2B2E31;
+}
+
+.centered {
+    text-align: center;
+}
+
+/**
+ * Intronduction
+ */
+#introduction {
+    background: url(../img/code-1839406_640.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#introduction h1 {
+    margin-top: 150px;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#introduction h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    font-style: oblique;
+}
+
+/**
+ * About + Button
+ */
+.btn-theme {
+    color: #fff;
+    background-color: #384452;
+    border-color: #384452;
+    margin: 4px;
+}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+    color: #fff;
+    background-color: #FCAC45;
+    border-color: #ffffff;
+}
+
+#f {
+    background: #384452;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#f h3 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#f icon {
+    font-size: 8px;
+    color: #fff;
+    padding: 3px;
+}
+
+#f p {
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+#f img {
+    text-align: center;
+}
+
+/**
+ * Skills
+ */
+#skills {
+    padding: 80px 0;
+}
+
+.espace {
+    margin-top: 40px;
+}
+
+#skills i.fa {
+    font-size: 40px;
+    border: solid #FCAC45 4px;
+    width: 100px;
+    height: 100px;
+    padding: 27px 25px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+#skills i.fa.fa-mobile {
+    font-size: 50px;
+    padding: 20px 25px;
+}
+
+#skills .Service:hover > i.fa {
+    background: #FCAC45;
+    color: #ffffff;
+}
+
+/**
+ * About Page
+ */
+#about_hub {
+    background: #FCAC45;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#about_hub h3 {
+    color:white;
+    margin-left: 18px;
+}
+
+#about {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#f_about {
+    background: #384452;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#f_about h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 450;
+}
+
+
+#f_about p {
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+/**
+ * Project Page
+ */
